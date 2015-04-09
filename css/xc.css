@@ -3,22 +3,21 @@
 .iconCenterhm { text-align:left; background-color:#fff; padding:20px 0px; border-right:1px solid #dbdbdb;  }
 .iconCenterhm p { font-size:14px; color:#333; }
 .iconCenterhm h2 { font-weight:normal; font-size:24px; margin-top:0px; }
-.iconCenterhm  a {background-color: #e74c3c; border-color: #c0392b; color:#fff;}
+.iconCenterhm  a {background-color: #336699; border-color: #336699; color:#fff}
 
-.navbar-static-top {   margin-bottom: 10px;}
+.navbar-static-top {margin-bottom: 10px;}
 
-.navbar-inverse {background-color: #e74c3c; top:-8px; border-color: #c0392b; color:#fff; font-size:14px; letter-spacing:0px;  }
+.navbar-inverse {background-color: #2d5986; top:-8px; border-color: #fff; color:#000; font-size:14px; letter-spacing:0px;  }
 
-.nav { margin:8px 0px 0px 0px; }
+.nav {margin:15px 0px 5px 0px; }
 
-.navbar-wrapperhm {background-color:#fff;}
-.navbar-wrapperhm a {color:#e74c3c; font-size:30px;}
+.navbar-brand img{height:45px;}
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffbbbc;
-  background-color: #c0392b;
+  background-color: #1a334d;
   border-radius:5px;
   
 }
@@ -27,24 +26,24 @@
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #ffbbbc;
-  background-color: #c0392b;
+  background-color: #996633;
 
 }
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffbbbc;
-  background-color: #c0392b;
+  background-color: #996633;
   border-radius:5px;
 }
   .navbar-nav > li > a {
 	    
-		padding:8px 15px;
+		padding:12.5px 15px;
 	    border-radius: 3px 3px 0px 0px;
   }
  
-  .panel-footer {background-color:#e74c3c; color: #fff;}
-  .panel-footer a {background-color:#e74c3c; color: #fff;}
+  .panel-footer {background-color:#2d5986; color: #fff;}
+  .panel-footer a {background-color:#2d5986; color: #fff;}
  .carousel-inner{height:360px;}
- .carousel-caption{top: 80px; text-align: left;}
-.carousel-caption h1 { max-width:600px; font-size:36px;}
+ .carousel-caption{top:80px; text-align: left;}
+ .carousel-caption h1 { max-width:600px; font-size:36px;}
   
