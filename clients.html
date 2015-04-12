@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="">
     <meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	
-    <link href="css/about.css" rel="stylesheet"> 
-	
-  <title> Veralgo Technologies </title>
-
-  </head>
- 
- <body>
-  		
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<link href="css/xc.css" rel="stylesheet">
+    <title> Veralgo Technologies </title>
+   </head>
+  <body>
+  <!--Navigation bar-->		
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
-        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.jpg" alt="vzure"></a>
+        </div>
 	<div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+		  
    <li><a href="index.html" style="color:#fff;">Home</a></li>
    <li><a href="about.html" style="color:#fff;">About</a></li> 
-   <li><a href="industries.html" style="color:#fff;">Industries</a></li> 
-   <li class="dropdown">
+      <li class="dropdown">
     <a href="services.html" class="dropdown-toggle" data-toggle="dropdown" style="color:#fff;">Services<b class="caret"></b></a>
      <ul class="dropdown-menu">
-       <li><a href="staffingaugmentation.html" style="color:#000000;">Staff Augmentation</a></li>
-       <li><a href="consultingServices.html" style="color:#000000;">Consulting Services</a></li>
-       <li><a href="msppartnership.html" style="color:#000000;">MSP Partnerships</a></li> 
+       <li><a href="staffingaugmentation.html" style="color:#000;">Staff Augmentation</a></li>
+       <li><a href="consulting.html" style="color:#000;">Consulting Services</a></li>
+       <li><a href="applicationdevelopment.html" style="color:#000;">Application Development</a></li> 
+	   <li><a href="mobiledevelopment.html" style="color:#000;">Mobile Development</a></li> 
+	   <li><a href="qa.html" style="color:#000;">Quality Assurance</a></li> 
       </ul>
 	</li>
+	<li><a href="industries.html" style="color:#fff;">Industries</a></li> 
    <li class="active"><a href="clients.html" style="color:#fff;">Clients</a></li>
    <li><a href="testimonials.html" style="color:#fff;">Testimonials</a></li>
    <li><a href="contact.html" style="color:#fff;">Contact</a></li>
    </ul>
+   <div class="navbar-right contact">
+		  	   <div class="col-md-8" style="text-align:right;"><img src="images/contact.png" alt="" title="" /> (607) 280 6047</div>
+			   <div class="col-md-2"><a href="https://www.facebook.com/veralgo" target="_blank"><img src="images/facebook.png" alt="" title="" /></a> </div>
+			   <div class="col-md-2"><a href="https://twitter.com/CentaurusTek" target="_blank"><img src="images/twitter.png" alt="" title="" /></a> </div>
+    </div>
    </div>
   </div>
-</nav>
- 
+</div>
+	
  <!--main content-->
   <div class="container">
     	<div class="row">
@@ -53,16 +63,8 @@
     <div class="col-md-8">
 	<div class="page-header">
     <h1>Our Clientele</h1>
-	
-	
 	</div>
-	</div>
-	
-	
-	<div class="row">
-     	  <!-- Row 01 -->
-          <div class="col-md-2">&nbsp;</div>
-    	  <!-- Row 02 -->
+		
           <div class="col-md-8 cntbox">		 	   
 		
 			    <div class="row">
@@ -70,14 +72,14 @@
                 		 <img src="images/clnt_ibm.jpg" class="img-rounded" alt=" ">    
                 </div>
                 <div class="col-xs-6 col-sm-3 clnts">
-                		 <img src="images/clnt_overhead.jpg" class="img-rounded" alt=" ">	
+                		 <img src="images/clnt_pfizer.jpg" class="img-rounded" alt=" ">	
                 </div>      
                 <div class="clearfix visible-xs"></div>  
                 <div class="col-xs-6 col-sm-3 clnts">
                 		 <img src="images/clnt_interstate.jpg" class="img-rounded" alt=" ">
   			    </div>
                 <div class="col-xs-6 col-sm-3 clnts">
-                		 <img src="images/clnt_aci.jpg" class="img-rounded" alt=" ">         	
+                		 <img src="images/clnt_pwc.jpg" class="img-rounded" alt=" ">         	
                 </div> 
 				 
                 
@@ -93,7 +95,7 @@
   			    </div>
                 <div class="clearfix visible-xs"></div>
                 <div class="col-xs-6 col-sm-3 clnts">
-                		 <img src="images/clnt_texas.jpg" class="img-rounded" alt=" ">         	
+                		 <img src="images/clnt_ey.jpg" class="img-rounded" alt=" ">         	
                 </div>
 				
                 <div class="col-xs-6 col-sm-3 clnts">
@@ -125,11 +127,11 @@
 				
 				<div class="clearfix visible-xs"></div>  
                 <div class="col-xs-6 col-sm-3 clnts">
-                		 <img src="images/clnt_jude.jpg" class="img-rounded" alt=" ">
+                		 <img src="images/clnt_cummins.jpg" class="img-rounded" alt=" ">
   			    </div>
                 
                 <div class="col-xs-6 col-sm-3 clnts">
-                		 <img src="images/clnt_Phoenix.jpg" class="img-rounded" alt=" ">         	
+                		 <img src="images/clnt_jude.jpg" class="img-rounded" alt=" ">         	
                 </div>		
 				<div class="clearfix visible-xs"></div>  
                 <div class="col-xs-6 col-sm-3 clnts">
@@ -145,11 +147,43 @@
   			    </div>	
 				
 			</div>
-				
-
-    </div>
+			</div>
    </div>
-   <!-- footer comes here -->
+   
+   
+      <div class="col-md-4 rightClmn" style="top:50px">
+			
+            <div class="panel panel-success">
+             <div class="panel-heading">Client Testimonials</div>
+              <ul class="list-group">
+              <li class="list-group-item">             
+                <p><img src="images/coln.png" width="38" height="38" style="float:left""><p style="font-size:15px; color:orange;">Senior IT Director, Pfizer</p>			
+               <p class="text-info">The team at Veralgo delivered a very highly professional work. Whenever I suggested any changes, the team was quick to implement them and I recommend this partner without any hesitation.</p>
+			   </li>
+              <li class="list-group-item">
+              	<p><img src="images/coln.png" width="38" height="38" style="float:left""><p style="font-size:15px; color:orange;">Account Vice President, Cummins</p>
+              <p class="text-info">Veralgo is our technology partner for many years. The turnaround time by Veralgo was remarkable. Their team always gets it right! </p>
+			  </li>
+              <li class="list-group-item">
+              	<p><img src="images/coln.png" width="38" height="38" style="float:left""><p style="font-size:15px; color:orange;">Project Manager, PricewaterhouseCoopers</p>
+              <p class="text-info">I have worked with the Veralgo Team for several years. They always ready to go the extra mile to make our projects successful. The team is wonderful to work with. </p>
+			  </li>
+              <li class="list-group-item">
+              	<p><img src="images/coln.png" width="38" height="38" style="float:left""><p style="font-size:15px; color:orange;">Senior Procurement Manager, Ernst & Young</p>
+              <p class="text-info">Veralgo continues to provide us with high quality support. They are experts in matching candidates to open positions at very competitive rates.  </p>
+			  </li>   
+               <li class="list-group-item">
+              	<p><img src="images/coln.png" width="38" height="38" style="float:left""><p style="font-size:15px; color:orange;">IT Service Manager, IBM</p>
+              <p class="text-info">The delivery manager at Veralgo has been very attentive to our needs. The team is also extremely professional and knowledgeable. Both the team and their leadership are pleasure to work with.</p>
+			  </li>			  
+              </ul>
+             </div>
+                   
+          </div>
+   
+   </div>
+ </div>
+    <!-- footer comes here -->
      <div id="footer" class="panel-footer panel-primary">     
 		
       <div class="container">
@@ -162,20 +196,15 @@
                     <div><a href="clients.html">Clients</a></div>
                     <div><a href="team.html">Team</a></div>
                     <div><a href="testimonials.html">Testimonials</a></div>
-                    <div><a href="csr.html">CSR</a></div>
-
-                    
+                   
               </div>
               <div class="col-md-3 col-xs-6 col-sm-3"><h4>Staffing &amp; Solutions </h4>
               		<div><a href="staffingaugmentation.html">Staffing Augmentation</a></div>
-                    <div><a href="consultingservices.html">Consulting Services</a></div>
-                    <div><a href="productengineering.html">Product Engineering Solutions</a></div>
-                    <div><a href="mobility.html">Mobility</a>
-                     <h4>Employee Corner</h4>
-                    <div><a href="openjobs.html">Open Jobs</a></div>
-                    <div><a href="notices.html">Notices</a></div>
-                    <div><a href="referralprogram.html">Referral Program</a></div>               
-                    <div><a href="form&documents.html">Form & Documents</a></div>
+                    <div><a href="consulting.html">Consulting Services</a></div>
+                    <div><a href="applicationdevelopment.html">Application Development</a></div>
+                    <div><a href="mobiledevelopment.html">Mobile Development</a></div>
+					<div><a href="qa.html">Quality Assurance</a>
+                     
                 </div>
               </div>      
               <div class="clearfix visible-xs"></div>  
@@ -192,25 +221,24 @@
                     <div><a href="careers.html">Careers</a></div>
                     <div><p>&nbsp;</p></div>
                     <div><h4>Call</h4></div>
-                    <div>(972) 929 2918</div><div>
+                    <div>(607) 280 6047</div><div>
                     <h4>Mail</h4></div> 
-                    <div><a href="mailto:info@epacetech.com">info@veralgo.com</a></div>
+                    <div><a href="mailto:info@veralgo.com">info@veralgo.com</a></div>
               </div>
-            </div>
-            
-       
-         
-        <!--footer sitemap-->
+			   <!--footer sitemap-->
       </div>
-       </div> 
-	   <div class="row well">
+	  <br>
+       <div class="row well">
         <div class="col-lg-6">© 2015 Veralgo Technologies, Inc.</div>
-    </div>    
-
+       </div> 
+	 </div>
+   </div>
+            
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	
   </body>
 </html>
